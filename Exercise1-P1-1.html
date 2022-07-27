@@ -1,0 +1,68 @@
+<html>
+    <head>
+    <title>Dine Booking</title>
+    </head>
+    <script>
+        
+    </script>
+    <body>
+        <center>
+            <h2>Dine Booking</h2>
+            <form name="f1">
+                
+                        Visitor Name:
+                        <input type="text" name="visitor_name" maxlength="20" required>
+                        <br>
+                        Number of members:
+                        <input type="number" name="nom" max="100" required>
+                        <br>
+                    
+                        Contact No:
+                        <input type="number" name="contact" max="10" required>
+                        <br>
+
+                        Email:
+                        <input type="email" name="mail" required >
+                        <br>
+                    
+                        Type of Food:
+                        
+                            <input type="checkbox" id="SouthIndian" name="SouthIndian" value="SouthIndian" checked=?yes?/>  
+                            <label> SouthIndian</label> 
+                            <input type="checkbox" id="NorthIndian" name="NorthIndian" value="NorthIndian"/>  
+                            <label>NorthIndian</label>   
+                            <input type="checkbox" id="Chinese" name="Chinese" value="Chinese"/>  
+                            <label>Chinese</label> 
+	                        <input type="checkbox" id="Western" name="Western" value="Western"/>  
+                            <label>Western</label>
+                            <br>
+
+                       Room Status:
+                        <input type="radio" name="room" value="AC" checked=?yes? >AC
+                            <input type="radio" name="room" value="Non-AC"  >Non-AC
+                        
+                            <br>
+                    
+                        Preference:
+                        
+                            
+                                <label for="cars"></label>
+                                <select name="cars" id="cars">
+                                    <option value="Arena">Arena</option>
+                                    <option value="Finesta">Finesta</option>
+                                    <option value="Vista">Vista</option>
+                                    <option value="Mythri">Mythri</option>
+                                    <option value="Magna">Magna</option>
+                                    <option value="Oasis">Oasis</option>
+                                    <option value="Amoeba" disabled>Amoeba</option>
+                                </select> 
+                                <br>   
+                       
+                      &nbsp;&nbsp;&nbsp;&nbsp;  
+                        <input type="submit" value="Book" onsubmit="validate()">
+                            <input type="reset" value="Reset"> 
+                   
+            </form>
+        </center>
+    </body>
+</html>
